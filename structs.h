@@ -8,11 +8,11 @@
 #define GRID_SIZE 9
 
 typedef struct Hint {
-	int triggerCellCount;
+	int triggerCellCount; 
 	char message[256];
 	int hintRow; 
 	int hintCol; 
-	int hintValue;
+	int hintValue; 
 } Hint;
 
 typedef struct Puzzle {
@@ -44,11 +44,9 @@ typedef struct GameState {
 	time_t timerStart;
 	unsigned int elapsedSeconds; 
 
-	
 	size_t nextHintIndex;
 } GameState;
 
 #endif 
-
 
 

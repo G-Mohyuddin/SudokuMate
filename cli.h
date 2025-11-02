@@ -22,4 +22,3 @@ int promptDifficulty(char *out, size_t outSize);
 #endif 
 
 
-
