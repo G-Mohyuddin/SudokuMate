@@ -6,6 +6,7 @@
 
 bool solveSudoku(int grid[GRID_SIZE][GRID_SIZE]);
 
-#endif // SOLVER_H
+#endif 
+
 
 
